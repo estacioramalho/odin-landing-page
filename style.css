@@ -1,0 +1,30 @@
+body {
+    margin:0;
+}
+
+.headblock{
+    margin: 0;
+    background-color: #1F2937;
+    height: 550px;
+
+}
+
+.neckblock {
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.torsoblock {
+    background-color: black;
+    height: 500px;
+}
+
+.legblock {
+    background-color: aqua;
+    height: 500px;
+}
+
+.toesblock {
+    background-color: blanchedalmond;
+    height: 40px;
+}
