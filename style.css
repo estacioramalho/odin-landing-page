@@ -8,19 +8,30 @@ body{
     height: 550px;
 }
 
-.top-panel{
-    height: 50px;
-    background-color:#1F2937;
-    margin:0;
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items: center;
 }
 
-.top-panel h2{
-
+/*Header Logo*/
+header h2{
     margin:0;
-    padding: 10px;
-    color:#f9faf8;
+    padding: 5px;
     font-size: 24px;
     font-weight:900;
+    color:#f9faf8;
+}
+
+/*Header Links*/
+.menu {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color:#e5e7eb;
 }
 
 .test{
