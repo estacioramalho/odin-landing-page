@@ -34,13 +34,13 @@ header h2{
 }
 
 /*First section of main*/
-.main-top{
+.main-first{
        background-color:#1F2937;
        padding:100px;
        margin:0;
        padding-left:400px;
        padding-right:400px;
-       display: flex    ;
+       display: flex;
 }
 
 /*Hero Text*/
@@ -51,11 +51,13 @@ header h2{
     margin:0;
 }
 
+/*Text below the Hero Text*/
 .herosecondary{
     color:#e5e7eb;
     font-size: 18px;
 }
 
+/*Sign Up Button*/
 .button{
     color:#f9faf8;
     background-color:#3882f6;
@@ -66,37 +68,78 @@ header h2{
     text-align: center;
 }
 
+/*Placeholder Block*/
 .placeholder{
-background-color: gray;
-padding: 120px;
-margin-left: 40px;
+    background-color:#6d747d;
+    width: 300px;
+    text-align: center;
+    padding: 120px;
+    margin-left: 40px;
+    color: #e5e7eb;
 }
 
-.test{
-    margin:0;
+/* Second Main Section*/
+.main-second{
+    background-color: white;
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
-.test h2{
-    margin:0;
-    color:aqua;
+/*Information Text on the second section*/
+.main-second p{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
 }
 
-.neckblock {
-    background-color:white;
-    height:500px;
+.squarelineup{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 }
 
-.torsoblock {
-    background-color:#e5e7eb;
-    height:450px;
+.placeholdersquare{
+    width:150px;
+    height:150px;
+    border-radius: 15px;
+    margin-bottom:10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
 }
 
-.legblock {
-    background-color:white;
-    height:350px;
+.squaretext{
+    width: 150px;
+    height: 100px;
 }
 
-.toesblock {
-    background-color:#1F2937;
-    height:50px;
+.squaretext b{
+    font-weight: 100;
+}
+
+.main-third{
+    background-color:#E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.Quote{
+    width: 800px;
+    height: 200px;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+
+}
+
+.Signature{
+    margin: 0;
+    text-align: right;
 }
